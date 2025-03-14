@@ -1047,3 +1047,13 @@ img.main-devicePicker-nowPlayingActiveIcon,
     grid-area: global-nav / main-view / global-nav / global-nav;
     margin: 0px;
 }
+
+/* Fix navbar background color */
+.main-yourLibraryX-libraryContainer {
+    background-color: var(--spice-sidebar) !important;
+}
+
+/* Fix artist page gradient */
+.main-entityHeader-container.main-entityHeader-withBackgroundImage + div > div {
+    --background-base-70: rgba(var(--spice-rgb-text), 0.2) !important;
+}
